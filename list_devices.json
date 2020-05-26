@@ -1,0 +1,422 @@
+{
+    "1": {
+        "state": {
+            "on": false,
+            "bri": 0,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": false
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-11T19:24:49"
+        },
+        "type": "Dimmable light",
+        "name": "Kitchen",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:cd:ab:b7-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "2": {
+        "state": {
+            "on": false,
+            "bri": 0,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": false
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:26:10"
+        },
+        "type": "Dimmable light",
+        "name": "Dining",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:ff:54:ca-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "3": {
+        "state": {
+            "on": false,
+            "bri": 127,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:25:49"
+        },
+        "type": "Dimmable light",
+        "name": "Chandelier 1",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:03:6b:32:87-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "4": {
+        "state": {
+            "on": false,
+            "bri": 127,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:25:55"
+        },
+        "type": "Dimmable light",
+        "name": "Chandelier 2",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:fd:63:eb-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "5": {
+        "state": {
+            "on": false,
+            "bri": 1,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:26:05"
+        },
+        "type": "Dimmable light",
+        "name": "First floor hallway",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:03:6a:e7:a6-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "6": {
+        "state": {
+            "on": false,
+            "bri": 127,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:26:00"
+        },
+        "type": "Dimmable light",
+        "name": "Chandelier 3",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:ff:ad:06-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "7": {
+        "state": {
+            "on": false,
+            "bri": 1,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:25:45"
+        },
+        "type": "Dimmable light",
+        "name": "Upstairs hall 1",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:03:5c:2c:0d-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    },
+    "8": {
+        "state": {
+            "on": false,
+            "bri": 254,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-26T05:44:00"
+        },
+        "type": "Dimmable light",
+        "name": "Office 1",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 5000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:97:d4:97-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "AC54D87F",
+        "productid": "Philips-LWB014-1-A19DLv3"
+    },
+    "9": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-26T05:42:52"
+        },
+        "type": "Dimmable light",
+        "name": "Office 2",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 5000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:02:f0:1e:2a-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "AC54D87F",
+        "productid": "Philips-LWB014-1-A19DLv3"
+    },
+    "10": {
+        "state": {
+            "on": false,
+            "bri": 1,
+            "alert": "select",
+            "mode": "homeautomation",
+            "reachable": true
+        },
+        "swupdate": {
+            "state": "noupdates",
+            "lastinstall": "2020-03-10T19:25:42"
+        },
+        "type": "Dimmable light",
+        "name": "Upstairs hall 2",
+        "modelid": "LWB014",
+        "manufacturername": "Signify Netherlands B.V.",
+        "productname": "Hue white lamp",
+        "capabilities": {
+            "certified": true,
+            "control": {
+                "mindimlevel": 2000,
+                "maxlumen": 840
+            },
+            "streaming": {
+                "renderer": false,
+                "proxy": false
+            }
+        },
+        "config": {
+            "archetype": "classicbulb",
+            "function": "functional",
+            "direction": "omnidirectional",
+            "startup": {
+                "mode": "safety",
+                "configured": true
+            }
+        },
+        "uniqueid": "00:17:88:01:03:5c:3a:db-0b",
+        "swversion": "1.50.2_r30933",
+        "swconfigid": "2AAED91D",
+        "productid": "Philips-LWB014-1-A19DLv4"
+    }
+}

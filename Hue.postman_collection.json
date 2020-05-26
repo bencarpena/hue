@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "60980464-094b-4ee6-b0e1-d6fbb06acad1",
+		"name": "Hue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Debug URL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "More notes here: https://developers.meethue.com/develop/get-started-2/"
+			},
+			"response": []
+		},
+		{
+			"name": "List all lights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights"
+					]
+				},
+				"description": "List all lights in my system"
+			},
+			"response": []
+		},
+		{
+			"name": "List details of Kitchen Light",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/1",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List details of Office Light #1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/8",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List details of Office Light #2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/9",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Action : Office Light 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"on\":true, \"bri\":254}"
+				},
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/8/state",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"8",
+						"state"
+					]
+				},
+				"description": "Turn on / off Office light 1"
+			},
+			"response": []
+		},
+		{
+			"name": "Action : Office Light 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"on\":false, \"bri\":254}"
+				},
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/9/state",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"9",
+						"state"
+					]
+				},
+				"description": "Turn on / off Office light 1"
+			},
+			"response": []
+		},
+		{
+			"name": "Action : Kitchen Light",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"on\":true, \"bri\":254}"
+				},
+				"url": {
+					"raw": "http://192.168.0.14/api/bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp/lights/1/state",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"14"
+					],
+					"path": [
+						"api",
+						"bpdiHvLoYj7sGYMjUhjvPMAIOnv9M7tSCtbzmBRp",
+						"lights",
+						"1",
+						"state"
+					]
+				},
+				"description": "Turn on / off Office light 1"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
