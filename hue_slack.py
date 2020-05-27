@@ -24,7 +24,7 @@ if slack_client.rtm_connect():
         for message in slack_client.rtm_read():
             if 'text' in message and message['text'].startswith("<@%s>" % slack_user_id):
 
-                print "Message received: %s" % json.dumps(message, indent=2)
+                print ("Message received: %s" % json.dumps(message, indent=2))
 
                 message_text = message['text'].\
                     split("<@%s>" % slack_user_id)[1].\
