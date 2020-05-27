@@ -18,7 +18,7 @@ for user in user_list.get('members'):
 
 # Start connection
 if slack_client.rtm_connect():
-    print "Connected!"
+    print ("Thorbot now online!")
 
     while True:
         for message in slack_client.rtm_read():
