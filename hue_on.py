@@ -16,7 +16,7 @@ import mimetypes
 
 #>>>>>>> Hue Parameters >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 conn = http.client.HTTPSConnection("192.168.0.14")
-payload = "{\"on\":false, \"bri\":254}"
+payload = "{\"on\":true, \"bri\":254}"
 headers = {
   'Content-Type': 'text/plain'
 }
