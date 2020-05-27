@@ -2,10 +2,20 @@ import re
 import time
 import json
 import psutil
+
+import os, ssl
+if (not os.environ.get('PYTHONHTTPSVERIFY', '') and
+getattr(ssl, '_create_unverified_context', None)):
+    ssl._create_default_https_context = ssl._create_unverified_context
+
 from slackclient import SlackClient
+#from slack import WebClient
+
+#Slack Workspace = DiveHQ
+#slack_client = WebClient("xoxb-63457761984-1147150098451-Lqw4MfwpKOt3M8qkKVmwTFKO")
+slack_client = SlackClient("xoxb-63457761984-1147150098451-Lqw4MfwpKOt3M8qkKVmwTFKO")
 
 
-slack_client = SlackClient("xoxb-65858531189-1145206050005-GYTUtOQpQQ3zQKHLgRTL5NA9")
 
 
 # Fetch your Bot's User ID

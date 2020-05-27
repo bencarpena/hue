@@ -26,7 +26,7 @@ headers = {
 #Create log file
 #=======================================================
 def create_log_file(logdata):
-  f = open(log_name, "a")
+  f = open("./hue_log/" + log_name, "a")
   f.write("\n")
   f.write(logdata)
   f.close()
