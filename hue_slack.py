@@ -11,7 +11,12 @@ getattr(ssl, '_create_unverified_context', None)):
 from slackclient import SlackClient
 #from slack import WebClient
 
-#Slack Workspace = DiveHQ
+#x2 import slack
+
+#Slack Workspace = DiveHQ =================
+#x2 slack_token = "xoxb-63457761984-1147150098451-Lqw4MfwpKOt3M8qkKVmwTFKO"
+#x2 rtm_client = slack.RTMClient(token=slack_token)
+
 #slack_client = WebClient("xoxb-63457761984-1147150098451-Lqw4MfwpKOt3M8qkKVmwTFKO")
 slack_client = SlackClient("xoxb-63457761984-1147150098451-Lqw4MfwpKOt3M8qkKVmwTFKO")
 

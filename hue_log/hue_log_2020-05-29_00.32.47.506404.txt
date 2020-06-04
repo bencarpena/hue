@@ -1,0 +1,17 @@
+
+###Office Lights
+[{"success":{"/lights/9/state/bri":254}},{"success":{"/lights/9/state/on":false}}]
+[{"success":{"/lights/8/state/bri":254}},{"success":{"/lights/8/state/on":false}}]
+###Dining Light
+[{"error":{"type":201,"address":"/lights/2/state/bri","description":"parameter, bri, is not modifiable. Device is set to off."}},{"success":{"/lights/2/state/on":false}}]
+###Kitchen Light
+[{"error":{"type":201,"address":"/lights/1/state/bri","description":"parameter, bri, is not modifiable. Device is set to off."}},{"success":{"/lights/1/state/on":false}}]
+###Chandelier Lights
+[{"success":{"/lights/3/state/bri":254}},{"success":{"/lights/3/state/on":false}}]
+[{"success":{"/lights/4/state/bri":254}},{"success":{"/lights/4/state/on":false}}]
+[{"success":{"/lights/6/state/bri":254}},{"success":{"/lights/6/state/on":false}}]
+###1F Hallway Light
+[{"success":{"/lights/5/state/bri":254}},{"success":{"/lights/5/state/on":false}}]
+###2F Hallway Lights
+[{"success":{"/lights/7/state/bri":254}},{"success":{"/lights/7/state/on":false}}]
+[{"success":{"/lights/10/state/bri":254}},{"success":{"/lights/10/state/on":false}}]
